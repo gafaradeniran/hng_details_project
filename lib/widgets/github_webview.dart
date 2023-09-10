@@ -12,7 +12,6 @@ class _GithubWebState extends State<GithubWeb> {
   final _controller = WebViewController()
     ..setJavaScriptMode(JavaScriptMode.unrestricted)
     ..loadRequest(Uri.parse("https://www.github.com/gafaradeniran"));
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
